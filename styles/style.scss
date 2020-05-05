@@ -1,1 +1,8 @@
-@import './variables'
+@import './reset';
+@import './colors';
+
+html {
+    background: $background_main;
+    font-family: 'Abril Fatface', serif; 
+    color: $mainfont; 
+}
